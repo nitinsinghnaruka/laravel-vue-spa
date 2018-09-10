@@ -1,0 +1,37 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  background-color: #f1f1f1;
+  font-family: 'Quicksand', sans-serif;
+  margin: 0;
+  height: 100%;
+  font-size: 16px;
+}
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.iziToast-theme-custom {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  padding: 20px 60px 20px 20px !important;
+}
+
+.iziToast-theme-custom .iziToast-title, .iziToast-message {
+  color: #ffffff !important;
+}
+
+.top-progress {
+  position: absolute !important;
+}
