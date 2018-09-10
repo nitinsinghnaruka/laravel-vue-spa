@@ -2,7 +2,11 @@
 
 Passport Authentication, Vuex and Broadcasting Example.
 
-#Install NPM
+# Install NPM
 npm install
 
-Migrate
+# Migrate Database
+php artisan migrate
+
+# Install Passport
+php artisan passport:install
